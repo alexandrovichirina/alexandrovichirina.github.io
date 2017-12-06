@@ -379,11 +379,11 @@ a {
 }
 .page-header__toggle {
   position: absolute;
-  top: 17px;
-  right: 20px;
+  top: 2px;
+  right: 5px;
   z-index: 3;
-  width: 23px;
-  height: 23px;
+  width: 53px;
+  height: 53px;
   border: none;
   background: none;
   outline: none;
@@ -392,8 +392,8 @@ a {
 .page-header__toggle::after {
   content: "";
   position: absolute;
-  right: -3px;
-  top: 9px;
+  right: 12px;
+  top: 24px;
   width: 28px;
   height: 4px;
   background: #ffffff;
@@ -410,8 +410,8 @@ a {
   display: none;
 }
 .page-header__nav--closed .page-header__toggle::before {
-  top: 8px;
-  right: -1px;
+  top: 23px;
+  right: 14px;
   width: 23px;
   background: #81b3d2;
   -webkit-transform: none;
